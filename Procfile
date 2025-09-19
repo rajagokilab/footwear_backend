@@ -1,0 +1,1 @@
+web: gunicorn footwear_backend.wsgi:application
