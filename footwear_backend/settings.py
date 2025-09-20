@@ -70,7 +70,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
    "https://footwear-frontend-bay.vercel.app",
-    "https://bikebackend-4.onrender.com",
+   
 ]
 
 TEMPLATES = [
@@ -138,6 +138,9 @@ USE_TZ = True
 
 STATIC_ROOT = BASE_DIR / "staticfiles"
 STATIC_URL = "/static/"
+STATIC_URL = '/static/'
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [BASE_DIR / 'footwear_backend/static']
 
 import os
 
